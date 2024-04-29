@@ -1,0 +1,93 @@
+import { Source_Sans_3 } from "next/font/google";
+import Image from "next/image";
+import React from "react";
+
+const SourceSans = Source_Sans_3({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const BuildingCard = () => {
+  return (
+    <div className="flex flex-col rounded-lg overflow-hidden shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] h-[293px]">
+      <div className="relative">
+        <Image
+          src={"/res1.jpeg"}
+          alt="Residential"
+          width={251}
+          height={165}
+          className="object-cover max-h-[165px]"
+        />
+        <div className="absolute inset-0 w-full h-full bg-black/60 pointer-events-none" />
+      </div>
+      <div className="px-4 py-[18px] flex flex-col flex-1 justify-between">
+        <h2
+          className={`text-black text-lg leading-[22px] ${SourceSans.className}`}
+        >
+          The El Dorado Lofts
+        </h2>
+        <p className={`text-black leading-5 ${SourceSans.className}`}>
+          Historic Core
+        </p>
+      </div>
+    </div>
+  );
+};
+
+const ResidentialBuildings = () => {
+  return (
+    <section className="max-w-screen-1440px mx-auto px-12 lg:px-16 lg:pb-[145px]">
+      <div className="flex flex-col gap-[30px]">
+        <h1 className="text-[#333333] font-bold text-[26px] leading-8 text-center">
+          The Downtown Residential Buildings I Specialize In
+        </h1>
+        <div className="flex flex-col gap-[97px]">
+          <div className="flex flex-col gap-6">
+            <h1
+              className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
+            >
+              Modern Architecture
+            </h1>
+            <div className="grid grid-cols-5 gap-4">
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+            </div>
+          </div>
+          <div className="flex flex-col gap-6">
+            <h1
+              className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
+            >
+              Adaptive Re-Use
+            </h1>
+            <div className="grid grid-cols-5 gap-4">
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+            </div>
+          </div>
+          <div className="flex flex-col gap-6">
+            <h1
+              className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
+            >
+              Industrial
+            </h1>
+            <div className="grid grid-cols-5 gap-4">
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ResidentialBuildings;
