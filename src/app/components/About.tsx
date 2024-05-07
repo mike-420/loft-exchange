@@ -21,12 +21,13 @@ const About = () => {
               className={`font-light text-[28px] leading-[54px] text-black ${SourceSans.className}`}
             >
               This business is an organic business, changing, adapting and
-              growing and experience is a key element and so it's knowledge. I
-              can write a book about all the intricacies and moments experienced
-              in helping so many wonderful clients with their real estate needs,
-              so whether you're looking for your first place, downsizing, or you
-              need an investment or second home, I am that real estate
-              consultant you have been looking for quite some time.{" "}
+              growing and experience is a key element and so it&apos;s
+              knowledge. I can write a book about all the intricacies and
+              moments experienced in helping so many wonderful clients with
+              their real estate needs, so whether you&apos;re looking for your
+              first place, downsizing, or you need an investment or second home,
+              I am that real estate consultant you have been looking for quite
+              some time.{" "}
             </p>
             <p className={`text-2xl text-black ${SourceSans.className}`}>
               Roxanna Godinez <br /> Realtor® <br /> Loftway <br /> Broker
