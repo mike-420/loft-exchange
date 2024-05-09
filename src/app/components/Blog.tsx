@@ -1,6 +1,6 @@
 import React from "react";
 
-const CommunityCard = () => {
+const BlogCard = () => {
   return (
     <article className="shadow-[0_4px_4px_rgba(0,0,0,0.25)] max-w-[390px] rounded-md overflow-hidden">
       <div className="h-[250px] overflow-hidden relative">
@@ -29,17 +29,17 @@ const CommunityCard = () => {
   );
 };
 
-const Community = () => {
+const Blog = () => {
   return (
     <div className="flex flex-col gap-[60px] items-center justify-center mt-[130px]">
-      <h1 className="text-[32px] leading-10 text-black">The Community</h1>
+      <h1 className="text-[32px] leading-10 text-black">Blog</h1>
       <div className="max-w-[1240px] mx-auto flex flex-wrap items-center justify-center lg:grid lg:grid-cols-3 gap-8">
-        <CommunityCard />
-        <CommunityCard />
-        <CommunityCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
       </div>
     </div>
   );
 };
 
-export default Community;
+export default Blog;

@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Community from "./components/Community";
+import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Neighborhoods from "./components/Neighborhoods";
@@ -23,7 +23,7 @@ export default function Home() {
       <About />
       <ResidentialBuildings />
       <Neighborhoods />
-      <Community />
+      <Blog />
       <Subscribe />
       <Footer />
     </div>
