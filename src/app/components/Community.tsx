@@ -9,12 +9,12 @@ const CommunityCard = () => {
           alt="image"
           className="absolute inset-0 object-cover"
         />
-        <button className="bg-orange-600 absolute bottom-0 left-0 px-3 py-1.5 text-sm uppercase font-semibold">
+        {/* <button className="bg-orange-600 absolute bottom-0 left-0 px-3 py-1.5 text-sm uppercase font-semibold">
           Photos
-        </button>
-        <button className="bg-orange-600 absolute top-4 right-4 rounded-full w-12 h-12 text-xs font-medium uppercase">
+        </button> */}
+        {/* <button className="bg-orange-600 absolute top-4 right-4 rounded-full w-12 h-12 text-xs font-medium uppercase">
           12 <br /> May
-        </button>
+        </button> */}
       </div>
       <div className="p-7 flex flex-col gap-6">
         <h1 className="text-xl font-bold text-black">
