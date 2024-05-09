@@ -9,10 +9,10 @@ const SourceSans = Source_Sans_3({
 
 const About = () => {
   return (
-    <div className="max-w-screen-1440px mx-auto lg:pl-[115px] lg:pr-[154px] pt-[73px] pb-[129px]">
+    <div className="max-w-screen-1440px mx-auto px-4 sm:px-12 md:px-16 lg:pl-[115px] lg:pr-[154px] pt-[73px] pb-[129px]">
       <div className="flex flex-col gap-11">
         <h1 className="text-[30px] leading-9 text-black uppercase">ABOUT</h1>
-        <div className="flex gap-20 items-center">
+        <div className="flex gap-12 lg:gap-20 lg:flex-row flex-col items-center">
           <div className="flex gap-9 flex-col max-w-[675px] w-full">
             <h1 className="text-[44px] leading-[54px] text-black">
               Roxanna Godinez

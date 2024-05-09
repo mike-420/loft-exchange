@@ -36,19 +36,19 @@ const BuildingCard = () => {
 
 const ResidentialBuildings = () => {
   return (
-    <section className="max-w-screen-1440px mx-auto px-12 lg:px-16 lg:pb-[145px]">
+    <section className="max-w-screen-1440px mx-auto px-4 sm:px-12 lg:px-16 lg:pb-[145px] pb-28">
       <div className="flex flex-col gap-[30px]">
         <h1 className="text-[#333333] font-bold text-[26px] leading-8 text-center">
           The Downtown Residential Buildings I Specialize In
         </h1>
-        <div className="flex flex-col gap-[97px]">
-          <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-10 sm:gap-[97px]">
+          <div className="flex flex-col gap-3 sm:gap-6">
             <h1
               className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
             >
               Modern Architecture
             </h1>
-            <div className="grid grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
               <BuildingCard />
               <BuildingCard />
               <BuildingCard />
@@ -56,13 +56,13 @@ const ResidentialBuildings = () => {
               <BuildingCard />
             </div>
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-3 sm:gap-6">
             <h1
               className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
             >
               Adaptive Re-Use
             </h1>
-            <div className="grid grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
               <BuildingCard />
               <BuildingCard />
               <BuildingCard />
@@ -70,13 +70,13 @@ const ResidentialBuildings = () => {
               <BuildingCard />
             </div>
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-3 sm:gap-6">
             <h1
               className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
             >
               Industrial
             </h1>
-            <div className="grid grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
               <BuildingCard />
               <BuildingCard />
               <BuildingCard />
