@@ -20,7 +20,7 @@ const BuildingCard = () => {
         />
         <div className="absolute inset-0 w-full h-full bg-black/60 pointer-events-none" />
       </div>
-      <div className="px-4 py-[18px] flex flex-col flex-1 justify-between">
+      <div className="px-4 py-[18px] bg-white flex flex-col flex-1 justify-between">
         <h2
           className={`text-black text-lg leading-[22px] ${SourceSans.className}`}
         >
@@ -36,57 +36,59 @@ const BuildingCard = () => {
 
 const ResidentialBuildings = () => {
   return (
-    <section className="max-w-screen-1440px mx-auto px-4 sm:px-12 lg:px-16 lg:pb-[145px] pb-28">
-      <div className="flex flex-col gap-[30px]">
-        <h1 className="text-[#333333] font-bold text-[26px] leading-8 text-center">
-          The Downtown Residential Buildings I Specialize In
-        </h1>
-        <div className="flex flex-col gap-10 sm:gap-[97px]">
-          <div className="flex flex-col gap-3 sm:gap-6">
-            <h1
-              className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
-            >
-              Modern Architecture
-            </h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
+    <div className="bg-[#D9D9D9] py-[66px]">
+      <section className="max-w-screen-1440px mx-auto px-4 sm:px-12 lg:px-16 lg:pb-[145px] pb-28">
+        <div className="flex flex-col gap-[30px]">
+          <h1 className="text-[#333333] font-bold text-[26px] leading-8 text-center">
+            The Downtown Residential Buildings I Specialize In
+          </h1>
+          <div className="flex flex-col gap-10 sm:gap-[97px]">
+            <div className="flex flex-col gap-3 sm:gap-6">
+              <h1
+                className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
+              >
+                Modern Architecture
+              </h1>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+              </div>
             </div>
-          </div>
-          <div className="flex flex-col gap-3 sm:gap-6">
-            <h1
-              className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
-            >
-              Adaptive Re-Use
-            </h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
+            <div className="flex flex-col gap-3 sm:gap-6">
+              <h1
+                className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
+              >
+                Adaptive Re-Use
+              </h1>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+              </div>
             </div>
-          </div>
-          <div className="flex flex-col gap-3 sm:gap-6">
-            <h1
-              className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
-            >
-              Industrial
-            </h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
-              <BuildingCard />
+            <div className="flex flex-col gap-3 sm:gap-6">
+              <h1
+                className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
+              >
+                Industrial
+              </h1>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+                <BuildingCard />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
