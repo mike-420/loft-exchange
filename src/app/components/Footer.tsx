@@ -5,9 +5,7 @@ const Footer = () => {
     <footer className="py-[66px] bg-black min-h-[326px] flex">
       <div className="flex md:flex-row md:gap-0 gap-20 flex-col justify-between flex-1 max-w-screen-1440px mx-auto lg:pl-[106px] lg:pr-[270px] md:px-16 sm:px-12 px-4">
         <div className="flex flex-col justify-between">
-          <h1 className="text-white font-bold text-2xl leading-7 uppercase">
-            The Loft exchange
-          </h1>
+          <img src="/footer.gif" alt="" />
           <p className="textwhite text-sm">© 2010 — 2020</p>
         </div>
         <div className="flex-1 flex md:justify-end lg:gap-20 md:gap-12 gap-10">
