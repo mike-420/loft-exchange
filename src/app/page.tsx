@@ -4,13 +4,14 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Neighborhoods from "./components/Neighborhoods";
 import ResidentialBuildings from "./components/ResidentialBuildings";
+import Slider from "./components/Slider";
 import Subscribe from "./components/Subscribe";
 
 export default function Home() {
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
-      <div className="h-[566px] text-black">slider</div>
+      <Slider />
       <div className="mt-[68px] mb-[61px] flex flex-col items-center gap-10">
         <h2 className="text-4xl leading-10 text-black text-center">
           Welcome to the <br /> neighborhood!
