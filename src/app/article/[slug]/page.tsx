@@ -16,8 +16,8 @@ const Page = () => {
           <h1
             className={`text-black font-medium text-5xl max-w-[888px] text-center leading-[68px]`}
           >
-            Your Guide to Shopping, Eating, and Drinking in DTLA's Stylish Arts
-            District
+            Your Guide to Shopping, Eating, and Drinking in DTLA&apos;s Stylish
+            Arts District
           </h1>
           <div className="mt-[30px]">
             <button className="px-7 text-center bg-[#E3F6F4] rounded-md font-light leading-9 text-black">

@@ -1,6 +1,7 @@
 "use client";
 import { Source_Sans_3 } from "next/font/google";
 import React, { useState } from "react";
+import GreenLine from "./GreenLine";
 
 const data = [
   {
@@ -43,7 +44,7 @@ const Slider = () => {
 
   return (
     <div className="relative w-full overflow-hidden">
-      <div className="h-2.5 w-full bg-[#8C9940]"></div>
+      <GreenLine />
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}

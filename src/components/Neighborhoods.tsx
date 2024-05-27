@@ -29,12 +29,14 @@ const NeighborhoodCard = ({ link, name }: { link: string; name: string }) => {
   );
 };
 
-const Neighborhoods = () => {
+const Neighborhoods = ({ isPage = false }: { isPage?: boolean }) => {
   return (
     <section className="flex flex-col gap-[54px]">
-      <h1 className="text-[32px] leading-10 text-black text-center">
-        The Neighborhoods
-      </h1>
+      {!isPage && (
+        <h1 className="text-[32px] leading-10 text-black text-center">
+          The Neighborhoods
+        </h1>
+      )}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[3px] w-full">
         {names.flatMap((loc, index) =>
           Array.from({ length: 3 }, (_, i) => (
