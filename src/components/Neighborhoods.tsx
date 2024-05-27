@@ -33,7 +33,7 @@ const Neighborhoods = ({ isPage = false }: { isPage?: boolean }) => {
   return (
     <section className="flex flex-col gap-[54px]">
       {!isPage && (
-        <h1 className="text-[32px] leading-10 text-black text-center">
+        <h1 className="text-[32px] leading-10 text-black text-center mt-10">
           The Neighborhoods
         </h1>
       )}

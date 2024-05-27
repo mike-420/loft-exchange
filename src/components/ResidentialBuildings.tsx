@@ -55,29 +55,11 @@ const ResidentialBuildings = () => {
                 <BuildingCard />
                 <BuildingCard />
                 <BuildingCard />
-              </div>
-            </div>
-            <div className="flex flex-col gap-3 sm:gap-6">
-              <h1
-                className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
-              >
-                Adaptive Re-Use
-              </h1>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
                 <BuildingCard />
                 <BuildingCard />
                 <BuildingCard />
                 <BuildingCard />
                 <BuildingCard />
-              </div>
-            </div>
-            <div className="flex flex-col gap-3 sm:gap-6">
-              <h1
-                className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
-              >
-                Industrial
-              </h1>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
                 <BuildingCard />
                 <BuildingCard />
                 <BuildingCard />
