@@ -49,20 +49,21 @@ const Slider = () => {
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
         {data.map((slide, index) => (
-          <>
-            <div
-              key={index}
-              className="w-full h-[566px] flex-shrink-0 bg-cover bg-center"
-              style={{ backgroundImage: `url(${slide.image})` }}
-            ></div>
-            <div className="absolute left-1/2 -translate-x-1/2 top-10">
-              <h1
-                className={`${SourceSans.className} text-3xl text-white capitalize leading-10 text-center`}
-              >
-                {slide.title}
-              </h1>
-            </div>
-          </>
+          <div
+            key={index}
+            className="relative w-full h-[566px] flex-shrink-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${slide.image})` }}
+          >
+            {currentSlide === index && (
+              <div className="absolute left-1/2 -translate-x-1/2 top-10">
+                <h1
+                  className={`${SourceSans.className} text-3xl text-white capitalize leading-10 text-center`}
+                >
+                  {slide.title}
+                </h1>
+              </div>
+            )}
+          </div>
         ))}
       </div>
 
