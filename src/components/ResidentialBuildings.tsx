@@ -43,29 +43,22 @@ const ResidentialBuildings = () => {
             The Downtown Residential Buildings I Specialize In
           </h1>
           <div className="flex flex-col gap-10 sm:gap-[97px]">
-            <div className="flex flex-col gap-3 sm:gap-6">
-              <h1
-                className={`text-black ${SourceSans.className} text-[26px] leading-9 font-light`}
-              >
-                Modern Architecture
-              </h1>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-                <BuildingCard />
-              </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-4 gap-y-20">
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
+              <BuildingCard />
             </div>
           </div>
         </div>
