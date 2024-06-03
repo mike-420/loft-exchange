@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Libre_Baskerville } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const libre = Libre_Baskerville({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={libre.className}>
+        <GoogleTagManager gtmId="GTM-5T54LP6N" />
         <Navbar />
         {children}
         <Footer />
