@@ -17,6 +17,7 @@ type BuildingInfo = {
   securedparking: boolean;
   pool: boolean;
   gym: boolean;
+  buildingImage: "string";
 };
 
 export interface NeighborhoodInfo {
@@ -106,14 +107,14 @@ export default async function NeighborhoodPage({
             <h1 className="uppercase text-xl leading-9 text-gray-900">
               Lofts and Condos in {neighborhood.neighborhood}
             </h1>
-            <div className="text-lg flex flex-col gap-10  text-black">
+            <div className="text-lg flex flex-col gap-10 pb-20  text-black">
               {neighborhood.buildings?.map((building, index) => {
                 return (
-                  <div className="grid grid-cols-3">
+                  <div className="grid grid-cols-3 min-h-[153px]" key={index}>
                     <div className="flex flex-col gap-1.5">
                       <span className="opacity-0">Building</span>
                       <img
-                        src="/neighborhood/Southpark.jpg"
+                        src={building.buildingImage}
                         alt="Building"
                         className="rounded-l-lg object-cover"
                       />

@@ -8,7 +8,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/940-e-2nd-st-lofts.JPG"
       },
       {
         "buildingName": "Barker Block Lofts",
@@ -16,7 +17,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/barker-block-lofts.jpg"
       },
       {
         "buildingName": "Beacon Lofts",
@@ -24,7 +26,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/beacon-lofts.jpg"
       },
       {
         "buildingName": "Biscuit Company Lofts",
@@ -32,7 +35,8 @@
         "zipCode": 90013,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/biscuit-company-lofts.jpg"
       },
       {
         "buildingName": "Gallery Lofts",
@@ -40,7 +44,8 @@
         "zipCode": 90013,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/gallery-lofts.jpg"
       },
       {
         "buildingName": "Molino Street Lofts",
@@ -48,7 +53,8 @@
         "zipCode": 90013,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/molino-street-lofts.jpg"
       },
       {
         "buildingName": "Toy Factory Lofts",
@@ -56,7 +62,8 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/toy-factory-lofts.jpg"
       },
       {
         "buildingName": "Toy Warehouse Lofts",
@@ -64,7 +71,8 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/toy-warehouse-lofts.jpg"
       }
     ],
     "youtubeVideos": "Exciting New Discovery",
@@ -80,7 +88,8 @@
         "zipCode": null,
         "securedParking": null,
         "pool": null,
-        "gym": null
+        "gym": null,
+        "buildingImage": "/building-images/1100-wilshire-lofts.jpg"
       },
       {
         "buildingName": "Vero",
@@ -88,7 +97,8 @@
         "zipCode": null,
         "securedParking": null,
         "pool": null,
-        "gym": null
+        "gym": null,
+        "buildingImage": "/building-images/vero.jpg"
       }
     ],
     "youtubeVideos": "1100 Wilshire",
@@ -104,7 +114,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/957-fig.jpg"
       },
       {
         "buildingName": "Angeleno Heights Condos",
@@ -112,7 +123,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/angeleno-heights-condos.jpg"
       },
       {
         "buildingName": "Cathy Village Condos",
@@ -120,7 +132,8 @@
         "zipCode": 90013,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/cathy-village-condos.JPG"
       },
       {
         "buildingName": "Figueroa Terrace Condos",
@@ -128,7 +141,8 @@
         "zipCode": 90013,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/figueroa-terrace-condos.jpg"
       },
       {
         "buildingName": "Figueroa View Condos",
@@ -136,7 +150,8 @@
         "zipCode": 90013,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/figueroa-view-condos.jpg"
       },
       {
         "buildingName": "Grand Condos",
@@ -144,7 +159,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/grand-condos.jpg"
       },
       {
         "buildingName": "The Terrace",
@@ -152,7 +168,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/the-terrace.JPG"
       }
     ],
     "youtubeVideos": "Los Angeles Chinatown Summer Nights",
@@ -168,7 +185,8 @@
         "zipCode": null,
         "securedParking": null,
         "pool": null,
-        "gym": null
+        "gym": null,
+        "buildingImage": "/building-images/"
       }
     ],
     "youtubeVideos": "Hall of Justice Renovations",
@@ -184,7 +202,8 @@
         "zipCode": null,
         "securedParking": null,
         "pool": null,
-        "gym": null
+        "gym": null,
+        "buildingImage": "/building-images/bunker-hill-tower.jpg"
       },
       {
         "buildingName": "Promenade West",
@@ -192,7 +211,8 @@
         "zipCode": null,
         "securedParking": null,
         "pool": null,
-        "gym": null
+        "gym": null,
+        "buildingImage": "/building-images/promenade-west.jpg"
       },
       {
         "buildingName": "The Promenade",
@@ -200,7 +220,8 @@
         "zipCode": null,
         "securedParking": null,
         "pool": null,
-        "gym": null
+        "gym": null,
+        "buildingImage": "/building-images/the-promenade.jpg"
       }
     ],
     "youtubeVideos": "Walt Disney Concert Hall Virtual Tour",
@@ -216,7 +237,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/eastern-columbia-lofts.jpg"
       },
       {
         "buildingName": "Santee Village - Cornell Lofts",
@@ -224,7 +246,8 @@
         "zipCode": 90014,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/santee-village-cornell-lofts.jpg"
       },
       {
         "buildingName": "Santee Village - Eckardt Lofts",
@@ -232,7 +255,8 @@
         "zipCode": 90014,
         "securedparking": false,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/santee-village-eckardt-lofts.jpg"
       },
       {
         "buildingName": "Santee Village - Textile Lofts",
@@ -240,7 +264,8 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": false,
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/santee-village-textile-lofts.jpg"
       },
       {
         "buildingName": "The Singer DTLA",
@@ -248,7 +273,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/the-singer-dtla.jpg"
       },
       {
         "buildingName": "The Tomahawk Building Lofts",
@@ -256,7 +282,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/the-tomahawk-building-lofts.jpg"
       }
     ],
     "youtubeVideos": "Santee Village Lofts: Urban Life",
@@ -272,7 +299,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/655-hope-lofts.jpg"
       },
       {
         "buildingName": "Library Court Lofts",
@@ -280,7 +308,8 @@
         "zipCode": 90021,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/library-court-lofts.jpg"
       }
     ],
     "youtubeVideos": "The Biltmore Hotel Celebrates 100 Years",
@@ -296,7 +325,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/bartlett-lofts.jpg"
       },
       {
         "buildingName": "Douglas Lofts",
@@ -304,7 +334,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/douglas-lofts.jpg"
       },
       {
         "buildingName": "El Dorado Lofts",
@@ -312,7 +343,8 @@
         "zipCode": 90013,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/el-dorado-lofts.jpg"
       },
       {
         "buildingName": "Higgins Lofts",
@@ -320,7 +352,8 @@
         "zipCode": 90021,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/higgins-lofts.jpg"
       },
       {
         "buildingName": "Pan American Lofts",
@@ -328,7 +361,8 @@
         "zipCode": 90013,
         "securedparking": false,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/pan-american-lofts.jpg"
       },
       {
         "buildingName": "Perla on Broadway",
@@ -336,7 +370,8 @@
         "zipCode": 90014,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/perla-on-broadway.jpg"
       },
       {
         "buildingName": "Rowan Lofts",
@@ -344,7 +379,8 @@
         "zipCode": 90014,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/rowan-lofts.jpg"
       },
       {
         "buildingName": "SB Grand Lofts",
@@ -352,7 +388,8 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": false,
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/sb-grand-lofts.jpg"
       }
     ],
     "youtubeVideos": "Downtown Los Angeles: 5th & Spring",
@@ -368,7 +405,8 @@
         "zipCode": 90012,
         "securedparking": false,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/little-tokyo-lofts.jpg"
       },
       {
         "buildingName": "Mura Condominiums",
@@ -376,7 +414,8 @@
         "zipCode": 90014,
         "securedparking": false,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/mura-condominiums.jpg"
       },
       {
         "buildingName": "Savoy Condominiums",
@@ -384,7 +423,8 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": false,
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/savoy-condominiums.jpg"
       },
       {
         "buildingName": "Teramachi",
@@ -392,7 +432,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/teramachi.jpg"
       },
       {
         "buildingName": "Tokyo Villa Condominiums",
@@ -400,7 +441,8 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/tokyo-villa-condominiums.jpg"
       }
     ],
     "youtubeVideos": "Little Tokyo's One Man Band",
@@ -416,7 +458,8 @@
         "zipCode": 90012,
         "securedparking": true,
         "pool": false,
-        "gym": "no"
+        "gym": "no",
+        "buildingImage": "/building-images/1050-grand-lofts.jpg"
       },
       {
         "buildingName": "Elleven Lofts",
@@ -424,7 +467,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/elleven-lofts.jpg"
       },
       {
         "buildingName": "EVO Lofts",
@@ -432,7 +476,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/evo-lofts.jpg"
       },
       {
         "buildingName": "Grand Lofts",
@@ -440,7 +485,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": false,
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/grand-lofts.jpg"
       },
       {
         "buildingName": "Luma Lofts",
@@ -448,7 +494,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/luma-lofts.jpg"
       },
       {
         "buildingName": "Metropolis",
@@ -456,7 +503,8 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/metropolis.jpg"
       },
       {
         "buildingName": "Ritz Carlton",
@@ -464,7 +512,8 @@
         "zipCode": 90015,
         "securedparking": true,
         "pool": "yes",
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/ritz-carlton.jpg"
       },
       {
         "buildingName": "Sky Lofts",
@@ -472,10 +521,10 @@
         "zipCode": 90017,
         "securedparking": true,
         "pool": false,
-        "gym": "yes"
+        "gym": "yes",
+        "buildingImage": "/building-images/sky-lofts.jpg"
       }
     ],
-    "buildingImagess": null,
     "youtubeVideos": "Discover Los Angeles: South Park",
     "mapLarge": "/neighborhood/maps/SouthParkMap.jpg",
     "banner": "/neighborhood/Southpark.jpg"
